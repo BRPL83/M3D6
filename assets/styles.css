@@ -1,0 +1,31 @@
+
+/* Stili di base dell'icona del segnalibro */
+
+
+.bi-bookmark-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.bi-bookmark-fill:hover {
+  opacity: 1;
+  scale: 1.2;
+}
+
+
+/* Stili della card */
+
+.card {
+  transition: transform 0.5s, box-shadow 0.5s;
+  border-radius: 0 0 calc(0.5rem - 1px) calc(0.5rem - 1px); 
+}
+
+/* Effetto al passaggio del mouse */
+.card:hover {
+  transform: scale(1.05); /* Rendi la card leggermente più grande */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Aggiungi un'ombra leggera */
+}
